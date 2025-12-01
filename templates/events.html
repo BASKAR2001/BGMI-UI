@@ -1,0 +1,125 @@
+{% include "nav.html" %} 
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<style>
+   .theme{
+margin-left: 260px;
+
+
+
+   }
+
+   .div{
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 800;
+ text-align: center;
+
+
+
+   }
+
+   .mission{
+
+      margin-left: 400px;
+     font-size: larger;
+
+   }
+
+
+   .travel{
+margin-left: 370px;
+font-size: larger;
+
+
+   }
+   .fantasy{
+  margin-left: 350px;
+
+
+   }
+
+   .vid4{
+  animation: scrollda linear;
+  animation-timeline: view(600px 0px);
+  /* opacity: 1; */
+}
+@keyframes scrollda{
+  from{
+    opacity: 0.1;scale: 0.3;
+  }
+  to{
+    opacity: 1;scale: 1;
+  }
+}
+
+</style>
+<body>
+    {% load static %}
+    <center><iframe width="1200" height="700" src="{% static 'pubgvideo5.mp4' %}" title="ERANGEL-FERRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center><br><br>
+
+    <center class="vid4"><iframe width="1200" height="700" src="{% static 'pubgvideo3.mp4' %}" title="ERANGEL-FERRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
+<br><br>
+
+
+<h2><div class="div"></href>EVENTS</div></h2>
+<center><div class="royal"><h1>SUMMER GIVEAWAY</h1></div></center>
+
+<center>   <img class="battle" src="{% static 'collection3.jpg' %}"  alt="..." width="800" height="500"></center><br><br>
+
+<center><p><h3>MISSIONS</h3></p></center>
+  <div class="mission"> Enter the lobby.<br><br>
+   * Survive 30 minutes in total. Survival time includes time spent spectating your teammates.<br>
+   * Survive 60 minutes in total. Survival time includes time spent spectating your teammates.<br><br>
+   Total Obtainable Rewards <br><br>
+   * Hunter's Chest (x6)<br>
+   * Contraband Coupon (x50)<br>
+   * Key (x2)<br>
+   * Lamborghini Event Loot Cache (x20)<br>
+   * Credit (x100)<br>
+   * 8Nervous Grenade (Spray)<br>
+   * Feed Me (Spray)<br>
+   * Squat and Bury (Emote)<br>
+   * BP (x5000)<br><br>
+   Event Schedule (UTC)<br><br>
+  * PC: July 10, after live server maintenance - August 6, 4 AM<br>
+  * Console: July 18, after live server maintenance - August 13, 4 AM<br><br> </div>
+  
+<center><div class="royal"><h1>FANTASY BATTLE ROYAL EVENT</h1></div></center>
+
+<center>   <img class="battle" src="{% static 'collection2.jpg' %}"  alt="..." width="800" height="500"></center><br>
+<div class="fantasy"><h2>The Fantasy Adventurer</h2><br></div>
+
+<center><p><h3>MISSIONS<br><br></center>
+
+ <div class="travel"> * Survive for 10 minutes in a single Fantasy Battle Royale match Survival<br> time includes time spent spectating your 
+   teammates<br><br>
+  * Travel 1,000 m total in any vehicle.<br>
+  * Get 1 kill with a level 5 Dragon Slayer.<br>
+  * Get 1 kill with a level 5 Kick Ash Longsword.<br>
+  * Get 1 kill with a level 5 Wand.<br>
+  * Heal 300 total health across your team using Heal Bombs.<br><br>
+   Total Obtainable Rewards <br><br>
+   
+  * Key (x1)<br>
+  * Hunter's Chest (x2)<br>
+  * Blue Can Man (Spray)<br>
+  * Contraband Coupon (x30)<br><br>
+    Event Schedule (UTC)<br><br>
+   
+  *  PC: July 24, 12 AM - August 7, 12 AM<br>
+  * Console: July 31, 12 AM - August 14, 12 AM<br>
+   </div>
+
+  
+
+</body>
+</html>

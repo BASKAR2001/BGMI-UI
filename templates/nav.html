@@ -1,0 +1,67 @@
+
+{% load static %}
+
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="{% static 'bgmi18.png' %}" alt="Logo" width="240" height="90" class="d-inline-block align-text-top">
+        
+      </a>
+    </div>
+  </nav>
+  
+  <div class="navdiv">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="media">MEDIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="events">EVENTS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="maps" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  GAME INFO
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="maps">MAPS</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SHOP
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="outfits">OUTFITS</a></li>
+                  <li><a class="dropdown-item" href="weapon_skin">WEAPON SKIN</a></li>
+                  <li><a class="dropdown-item" href="vehicle_skin">VEHICLE SKIN</a></li>
+              
+                  <li><a class="dropdown-item" href="uc_purchase">UC PURCHASE</a></li>
+                </ul>
+              </li>
+              
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SIGNIN METHOD
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="login">LOGIN</a></li>
+            <li><a class="dropdown-item" href="register">REGISTER</a></li>
+              </ul>
+            
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    

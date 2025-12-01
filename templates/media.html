@@ -1,0 +1,117 @@
+{% include "nav.html" %} 
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   
+
+        .pubg{
+margin-top: 50px;
+margin-left: 150px;
+animation: scrollda linear;
+  animation-timeline: view(600px 0px);
+
+
+        }
+        @keyframes scrollda{
+  from{
+    opacity: 0.1;scale: 0.3;
+  }
+  to{
+    opacity: 1;scale: 1;
+  }
+}
+
+        .bgmi{
+margin-top: 50px;
+margin-left: 150px;
+animation: scrollda linear;
+  animation-timeline: view(600px 0px);
+        }
+        @keyframes scrollda{
+  from{
+    opacity: 0.1;scale: 0.3;
+  }
+  to{
+    opacity: 1;scale: 1;
+  }
+}
+
+
+
+        .pubg1{
+   margin-left: 150px;
+   animation: scrollda linear;
+  animation-timeline: view(600px 0px);
+
+        }
+        @keyframes scrollda{
+  from{
+    opacity: 0.1;scale: 0.3;
+  }
+  to{
+    opacity: 1;scale: 1;
+  }
+}
+
+        .videos{
+margin-left: -100px;
+
+
+        }
+
+
+        .image{
+margin-left: 700px;
+
+
+        }
+
+        
+    </style>
+</head>
+<body>
+      
+   <center><div class="videos"> <h1><p>VIDEOS</p></h1></div></center>
+ <div class="pubg1">   <iframe width="1220" height="706" src="https://www.youtube.com/embed/BFYUb5xAwxQ" title="PUBG Collaboration - McLaren Trailer | PUBG" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+ <div class="pubg">   <iframe width="1220" height="686" src="https://www.youtube.com/embed/h0s5X6pyhd0" title="PUBG | Gameplay Trailer - Vikendi Reborn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+ <div class="bgmi"><iframe width="1220" height="686" src="https://www.youtube.com/embed/-vOylqYudCw" title="PUBG Collaboration - Assassins have arrived | PUBG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+ 
+
+
+
+ <div class="card-group d-flex flex-row  "><center><div class=image><h1><p>GALLERY</p></h1></div></center>
+    
+     <marquee> <img src="{% static 'bgmi19.jpg' %}"  alt="..." width="400" height="300">
+   
+        
+      
+      
+    
+      <img src="{% static 'bgmi20.jpg' %}" alt="..." width="400" height="300">
+      
+      <img src="{% static 'bgmi21.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'bgmi22.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'bgmi23.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'bgmi24.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'Erangel-A.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'Erangel-B.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'event1.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'event2.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'event3.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'event4.jpg' %}"alt="..." width="400" height="300">
+      <img src="{% static 'event5.jpg' %}"alt="..." width="400" height="300">
+     
+    </div>
+  </div>
+</body>
+</html>
